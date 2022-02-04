@@ -7,23 +7,25 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "postinstall": "cd plugins/wysiwyg && npm i"
   },
   "devDependencies": {},
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^31.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.3",
     "strapi": "3.6.0",
     "strapi-admin": "3.6.0",
-    "strapi-utils": "3.6.0",
-    "strapi-plugin-content-type-builder": "3.6.0",
-    "strapi-plugin-content-manager": "3.6.0",
-    "strapi-plugin-users-permissions": "3.6.0",
-    "strapi-plugin-email": "3.6.0",
-    "strapi-plugin-upload": "3.6.0",
-    "strapi-plugin-i18n": "3.6.0",
     "strapi-connector-mongoose": "3.6.0",
+    "strapi-plugin-content-manager": "3.6.0",
+    "strapi-plugin-content-type-builder": "3.6.0",
+    "strapi-plugin-email": "3.6.0",
+    "strapi-plugin-graphql": "3.6.0",
+    "strapi-plugin-i18n": "3.6.0",
+    "strapi-plugin-upload": "3.6.0",
+    "strapi-plugin-users-permissions": "3.6.0",
     "strapi-provider-upload-cloudinary": "^3.6.8",
-    "@ckeditor/ckeditor5-build-classic": "^31.0.0",
-    "@ckeditor/ckeditor5-react": "^3.0.3"
+    "strapi-utils": "3.6.0"
   },
   "author": {
     "name": "A Strapi developer"
